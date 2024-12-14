@@ -1,0 +1,27 @@
+{
+  "name": "alura-books-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch --env-file=.env app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VinyCdO/alura-books-server.git"
+  },
+  "author": "Vinicius Oliveira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VinyCdO/alura-books-server/issues"
+  },
+  "homepage": "https://github.com/VinyCdO/alura-books-server#readme",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongodb": "^6.12.0",
+    "nodemon": "^3.1.7"
+  }
+}
