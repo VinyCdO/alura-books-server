@@ -3,7 +3,8 @@ import { getTodosLivros, getLivro, postLivro, deleteLivro, putLivro } from "../s
 export async function getLivros(req, res) {
   try {
     const livros = await getTodosLivros()
-    res.status(200).json(livros)
+    // console.log(livros);
+    res.status(200).json(livros)    
   } catch (error) {
       res.status(500)
       res.send(error.message)
